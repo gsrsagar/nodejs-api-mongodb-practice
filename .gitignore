@@ -1,0 +1,60 @@
+# Dependencies
+node_modules
+.npm
+.pnpm-store
+.yarn
+
+# Build  Production output
+dist
+build
+out
+.vite
+.next
+.nuxt
+.cache
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Coverage
+coverage
+.nyc_output
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE  Editors
+.vscode
+!.vscodeextensions.json
+!.vscodesettings.json
+.idea
+.iml
+
+# Temporary files
+.tmp
+.temp
+.swp
+.swo
+
+# TypeScript
+.tsbuildinfo
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.prettiercache
