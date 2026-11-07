@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-first",
+  "version": "1.0.0",
+  "description": "Nodejs Sample First Project",
+  "keywords": [
+    "Nodejs",
+    "First",
+    "App",
+    "Sagar",
+    "Stack",
+    "MERN",
+    "Stack",
+    "MEAN",
+    "Stack"
+  ],
+  "license": "ISC",
+  "author": "gsrsagar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "fs": "^0.0.1-security",
+    "mongodb": "^7.8.0",
+    "mongoose": "^9.12.0",
+    "pdf-parse": "^2.4.5",
+    "process": "^0.11.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
